@@ -3,17 +3,17 @@ Version Control: Github mastery
 
 #### Why? Motivations to use github!
 - It's an awesome way to keep all of your code in one place and collaborate with others on code projects. 
-- Don't use dropbox or google drive for code. 
+- Don't use dropbox or google drive for code. These version control programs update the files in the cloud whenever someone saves it (which is advantageous in some situations, but probably not for code prototyping when you want to run things and make progress in between "versions"). 
 - Everyone has a local copy of the code! :) You don't want one person's bugs to affect the rest of the team. 
 - Make sure you can trace a bug back to a particular point in time (find out exactly what happened when).
 - Pull requests - giving people an opportunity to approve a modification to the code.
 - Ability to revert back to previous versions of the code - so it's safe to experiment and code new things without fear. (No control-Z sprees of panic!)
 
 #### What's git? How does it work?
+To describe it briefly:
 - git refers to the version control system. 
 - Github is the collaborative code website for users to share their code with others and keep track of their projects over time.
-- An overview of how to use git: Read the "basic usage" section of this webpage. Feel free to read more if you're interested though!:
-http://marklodato.github.io/visual-git-guide/index-en.html
+- An overview of how to use git: Read the ["basic usage" section](http://marklodato.github.io/visual-git-guide/index-en.html) of this webpage. Feel free to continue further if you're interested though!
 
 #### Setting things up on your computer
 - You should already have git installed on your system. If not, then simply 
@@ -58,3 +58,16 @@ origin/upstream/remote/etc terminology
 #### Dundundun - Conflicts
 
 #### HTTPs vs SSH
+
+#### Other options/preferences
+- The first time you use git, your computer may ask you about --config settings. Go ahead and do this with your email address so your commits from that computer are associated with your github account. :)
+```
+$ git config --global user.email youremailnamehere@students.olin.edu
+```
+- Color coding is your friend! We recommend doing this so your git terminal activities are easier to read and more exciting.
+```
+$ git config --global color.ui true
+```
+- Click here for [additional github configuration shenanigans](http://git-scm.com/book/en/Customizing-Git-Git-Configuration)
+
+#### Onwards!
