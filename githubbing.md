@@ -77,8 +77,8 @@ $ git config --global color.ui true
 
 - Click here for [additional github configuration shenanigans](http://git-scm.com/book/en/Customizing-Git-Git-Configuration)
 
-#### Any FAQs?
-- Ask away!
+#### Any questions, comments, or concerns after doing this tutorial?
+- Ask away! We love feedback and iterations. :)
 
 #### Onwards!
 - Github is a great place to have a "code portfolio" for the sake of past/current code projects. 
